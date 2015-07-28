@@ -3,6 +3,7 @@ package br.com.rest.resources;
 import java.io.IOException;
 import java.util.List;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -57,7 +58,6 @@ public class MusicasResource {
 	@Produces(MediaType.TEXT_HTML)
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	public void createMusica(@FormParam("id") String id,
-			@FormParam("anoFormacao") int anoFormacao,
 			@FormParam("nomeMusica") String nomeMusica,
 			@FormParam("tipoMusica") String tipoMusica,
 			@FormParam("autor") String autor,
