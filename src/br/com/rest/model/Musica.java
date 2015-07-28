@@ -22,18 +22,8 @@ public class Musica {
 		this.nomeMusica = nomeMusica;
 		this.tipoMusica = tipoMusica;
 		this.autor = autor;
-		this.autor = album;
-		
-	}
-
-
-	public String getAlbum() {
-		return album;
-	}
-
-
-	public void setAlbum(String album) {
 		this.album = album;
+		
 	}
 
 
@@ -74,7 +64,20 @@ public class Musica {
 
 	public void setAutor(String autor) {
 		this.autor = autor;
-	}	
+	}
+
+
+	public String getAlbum() {
+		return album;
+	}
+
+
+	public void setAlbum(String album) {
+		this.album = album;
+	}
+
+
+	
 
 	
 }
