@@ -64,7 +64,7 @@ Opção via formulário: http://localhost:8080/Application/createmusica.html
 
 #2 - Atualização de dados
 
---BANDA
+**--BANDA**
 Method: PUT
 
 Endpoint: http://localhost:8080/Application/rest/bandas/{id}
@@ -99,15 +99,16 @@ Endpoint: http://localhost:8080/Application/rest/musicas/{id}
 
 -------------------------------------------------------------------------------------------------------------------
 
-##3 - Deletar dados existentes
+#3 - Deletar dados existentes
 
---BANDA
+**--BANDA**
+
 Method: DELETE
 
 Endpoint: http://localhost:8080/Application/rest/bandas/{id}
 
+**--MÚSICA**
 
---MÚSICA
 Method: DELETE
 
 Endpoint: http://localhost:8080/Application/rest/musicas/{id}
@@ -115,44 +116,55 @@ Endpoint: http://localhost:8080/Application/rest/musicas/{id}
 
 -------------------------------------------------------------------------------------------------------------------
 
-4 - Listar dados existentes
+#4 - Listar dados existentes
 
---BANDA
+**--BANDA**
+
 Method: GET
 
 Endpoint: http://localhost:8080/Application/rest/bandas/
 
 
---MÚSICA
+**--MÚSICA**
+
 Method: GET
+
 Endpoint: http://localhost:8080/Application/rest/musicas/
 
 
 -------------------------------------------------------------------------------------------------------------------
 
-5 - contagem de dados existentes
+#5 - contagem de dados existentes
 
---BANDA
+**--BANDA**
+
 Method: GET
+
 Endpoint: http://localhost:8080/Application/rest/bandas/count
 
 
---MÚSICA
+**--MÚSICA**
+
 Method: GET
+
 Endpoint: http://localhost:8080/Application/rest/musicas/count
 
 
 -------------------------------------------------------------------------------------------------------------------
 
-6 - Ver informações de um id
+#6 - Ver informações de um id
 
---BANDA
+**--BANDA**
+
 Method: GET
+
 Endpoint: http://localhost:8080/Application/rest/bandas/{id}
 
 
---MÚSICA
+**--MÚSICA**
+
 Method: GET
+
 Endpoint: http://localhost:8080/Application/rest/musicas/{id}
 
 
