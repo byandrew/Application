@@ -38,7 +38,7 @@ Endpoint: http://localhost:8080/Application/rest/bandas/{id}
 </banda>
 ```
 
-Opção via formulário: http://localhost:8080/Application/createbanda.html
+Opção de cadastro via formulário: http://localhost:8080/Application/createbanda.html
 
 
 **--MÚSICA**
@@ -58,7 +58,7 @@ Endpoint: http://localhost:8080/Application/rest/musicas/{id}
 </musica>
 ```
 
-Opção via formulário: http://localhost:8080/Application/createmusica.html
+Opção de cadastro via formulário: http://localhost:8080/Application/createmusica.html
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -134,7 +134,7 @@ Endpoint: http://localhost:8080/Application/rest/musicas/
 
 -------------------------------------------------------------------------------------------------------------------
 
-#5 - contagem de dados existentes
+#5 - Contagem de dados existentes
 
 **--BANDA**
 
@@ -152,7 +152,7 @@ Endpoint: http://localhost:8080/Application/rest/musicas/count
 
 -------------------------------------------------------------------------------------------------------------------
 
-#6 - Ver informações de um id
+#6 - Ver informações de apenas um registro
 
 **--BANDA**
 
