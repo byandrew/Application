@@ -13,9 +13,9 @@ Serviço para criação de dados de Bandas e Músicas usando REST, com possibili
 
 4 - Listar dados existentes
 
-5 - contagem de dados existentes
+5 - Contagem de dados existentes
 
-6 - Ver informações de um id
+6 - Ver informações de apenas um registro
 
 
 -------------------------------------------------------------------------------------------------------------------
