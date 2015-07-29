@@ -5,7 +5,7 @@
 Serviço para criação de dados de Bandas e Músicas usando REST, com possibilidades de criação, atualização, remoção, listagem, contagem e consulta de dados. Possui auxílio de formulário HTML para criação de dados.
 
 #Indíce
-1 - Criacação de dados
+1 - Criação de dados
 
 2 - Atualização de dados
 
@@ -66,19 +66,27 @@ Opção via formulário: http://localhost:8080/Application/createmusica.html
 
 --BANDA
 Method: PUT
+
 Endpoint: http://localhost:8080/Application/rest/bandas/{id}
-Payload:
+
+**Payload:**
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <banda>
 <id>{id}</id>
 <nomeBanda>AAAAA</nomeBanda>
 <anoDeFormacao>2000</anoDeFormacao>
 </banda>
+```
 
---MÚSICA
+**--MÚSICA**
+
 Method: PUT
+
 Endpoint: http://localhost:8080/Application/rest/musicas/{id}
-Payload
+
+**Payload:**
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <musica>
 <id>{id}</id>
@@ -87,7 +95,7 @@ Payload
 <autor>AAAA</autor>
 <album>AAAA</album>
 </musica>
-
+```
 
 -------------------------------------------------------------------------------------------------------------------
 
