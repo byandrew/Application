@@ -2,7 +2,9 @@
 
 **Trabalho Final  - EES09 - Software como Serviço: Arquitetura SOA e WebService**
 
-Serviço para criação de dados de Bandas e Músicas usando REST, com possibilidades de criação, atualização, remoção, listagem, contagem e consulta de dados. Possui auxílio de formulário HTML para criação de dados.
+Serviço para criação de dados de Bandas e Músicas usando REST. A aplicação permite a criação, atualização, remoção e consulta de dados de bandas e musica e possui auxílio de um formulário em HTML para criação de dados. 
+Não utilizamos um banco de dados especifico para facilitar no desenvolvimento, entrega e execução do projeto. As informações estão sendo armazenadas em memória.
+Neste projeto estamos utilizando o Jersey versão 1.4 e o Apache Tomcat versão 8 para rodar o serviço.
 
 #Indíce
 1 - Criação de dados
