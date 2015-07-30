@@ -1,10 +1,10 @@
-# Application - Aplicação CRUD utilizando REST
+# Application - Aplicação CRUD utilizando WebService Restful
 
 **Trabalho Final  - EES09 - Software como Serviço: Arquitetura SOA e WebService**
 
-Serviço para criação de dados de Bandas e Músicas usando REST. A aplicação permite a criação, atualização, remoção e consulta de dados de bandas e musica e possui auxílio de um formulário em HTML para criação de dados. 
+Serviço para controle de Bandas e Músicas em Java utilizando Webserice Restful. A aplicação permite a criação, atualização, remoção e consulta de dados de bandas e musica e possui auxílio de um formulário em HTML para criação de dados. 
 Não utilizamos um banco de dados especifico para facilitar no desenvolvimento, entrega e execução do projeto. As informações estão sendo armazenadas em memória.
-Neste projeto estamos utilizando o Jersey versão 1.4 e o Apache Tomcat versão 8 para rodar o serviço.
+Neste projeto estamos utilizando o Jersey versão 1.4 e o Apache Tomcat versão 8 para rodar o serviço. É necessário ter alguma ferramenta (Poster, Advanced REST client etc.) para executar a aplicação.
 
 #Indíce
 1 - Criação de dados
